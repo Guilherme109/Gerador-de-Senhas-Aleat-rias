@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Senhas Aleatórias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gerador de Senhas Aleatórias</h1>
+  <form action="#">
+    <label for="tamanho">Tamanho da senha:</label>
+    <input type="number" id="tamanho" name="tamanho" min="4" max="99999" value="16">
+    <br>
+    <input type="checkbox" id="maiusculas" name="maiusculas">
+    <label for="maiusculas">Incluir letras maiúsculas</label>
+    <br>
+    <input type="checkbox" id="minusculas" name="minusculas" checked>
+    <label for="minusculas">Incluir letras minúsculas</label>
+    <br>
+    <input type="checkbox" id="numeros" name="numeros" checked>
+    <label for="numeros">Incluir números</label>
+    <br>
+    <input type="checkbox" id="especiais" name="especiais" checked>
+    <label for="especiais">Incluir caracteres especiais</label>
+    <br>
+    <br>
+    <button type="submit">Gerar Senha</button>
+  </form>
+  <br>
+  <div id="senha"></div>
+  <script src="script.js"></script>
+</body>
+</html>

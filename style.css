@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #fffcfc;
+  }
+  
+  /* Container principal */
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Opções de caracteres */
+  .opcoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* Labels */
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Input de tamanho */
+  #tamanho {
+    width: 50px;
+  }
+  
+  /* Botão gerar senha */
+  button {
+    background-color: #0073b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    background-color: #005a97;
+  }
+  
+  /* Caixa da senha */
+  #senha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
